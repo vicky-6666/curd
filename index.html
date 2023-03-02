@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      http-equiv="X-UA-Compatible"
+      content="IE=edge"
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <!-- Custom Favicon -->
+    <link
+      rel="shortcut icon"
+      href="./images/favicon.png"
+      type="image/x-icon"
+    />
+
+    <title>TODO list</title>
+
+    <!-- FontAwesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!--normalize CSS -->
+    <link
+      rel="stylesheet"
+      href="./styles/normalize.css"
+    />
+
+    <!-- Custom CSS -->
+    <link
+      rel="stylesheet"
+      href="./styles/style.css"
+    />
+  </head>
+  <body>
+    <main>
+      <h1>Moon light Hotel</h1>
+
+      <form
+        class="input-container"
+        id="form"
+      >
+        <input
+          type="text"
+          placeholder="I like to Eat..."
+          class="food-input"
+          id="food-input"
+          required
+        />
+
+        <input
+          type="number"
+          placeholder="No of Quantity...⁉"
+          class="quantity-input"
+          id="quantity-input"
+          required
+        />
+        <button
+          id="btn"
+          type="submit"
+        >
+          Enter
+        </button>
+      </form>
+      <p class="order">Your Orders:</p>
+      <ul class="food-container"></ul>
+    </main>
+    <!-- Custom JavaScript -->
+    <script src="./script/script.js"></script>
+  </body>
+</html>
